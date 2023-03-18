@@ -30,12 +30,19 @@ body{
     width: 134px;
     height: 53px;
     border-radius: 15px;
-    font-weight: 600;
     font-size: 22px;
+    font-weight: 600;
     color: white;
     border: 0;
     outline: none;
     margin-top: 33px;
+}
+button{
+    cursor: pointer;
+}
+button:active{
+    background-color: #FECB03;
+    border: 1px #000000 solid;
 }
 .container{
     display: flex;
